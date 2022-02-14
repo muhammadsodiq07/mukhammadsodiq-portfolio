@@ -31,6 +31,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden !important;
 }
 
 body::-webkit-scrollbar {
@@ -164,7 +165,7 @@ body::-webkit-scrollbar-thumb:hover {
 .header__list {
   width: 100%;
   text-align: center;
-  padding-right: 45px;
+  padding-right: 10px;
 }
 
 .header__item {
@@ -196,7 +197,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header__solution {
   width: 100%;
-  padding-right: 40px;
+  padding-right: 0px;
 }
 
 .header__icons {
@@ -988,7 +989,6 @@ span {
   .about__buttons {
     margin-bottom: 40px;
   }
-
   .show {
     width: 30%;
     z-index: 2;
@@ -1037,27 +1037,20 @@ span {
   }
 
   .contacn {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .show {
-    width: 45%;
+    width: 45%; 
   }
 
-  .portfalio__imgbox {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 485px) {
   .show {
     width: 55%;
-  }
-
-  * {
-    margin-right: 0;
   }
 }
 
