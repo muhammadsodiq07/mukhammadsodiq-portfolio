@@ -1,13 +1,19 @@
 let elopenmodal = document.getElementById('openModal');
 let elColsemodal = document.getElementById('close-btn');
 let elModal = document.getElementById('show');
+let elbody = document.getElementById('body')
+
 
 elopenmodal.addEventListener('click', function () {
   elModal.classList.add('show');
+  elbody.classList.add('padding');
+  elopenmodal.classList.add('right-xs');
 });
 
 elColsemodal.addEventListener('click', function () {
   elModal.classList.remove('show');
+  elbody.classList.remove('padding');
+  elopenmodal.classList.remove('right-xs')
 });
 
 var typed = new Typed('#element', {
@@ -45,3 +51,10 @@ document.addEventListener("mousemove", function(b){
     }
   }
 });
+
+
+
+
+
+
+
