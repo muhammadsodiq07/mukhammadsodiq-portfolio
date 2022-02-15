@@ -645,7 +645,7 @@ span {
 
 .portfalio__box {
   display: inline-block;
-  width: 93.5%;
+  width: 94%;
   height: 40%;
   margin-left: 12px;
   background-color: #fa163f;
@@ -973,8 +973,22 @@ span {
 
 
 
-
-
+.top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #0c0c0c;
+  border: 2px solid #fa163f;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding-top: 3px;
+  cursor: pointer;
+  opacity: 0;
+}
 
 
 
