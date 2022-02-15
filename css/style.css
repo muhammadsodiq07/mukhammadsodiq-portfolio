@@ -483,8 +483,9 @@ span {
 .curu {
   display: none;
 }
-
-
+.marginavto {
+  margin-right: 20px;
+}
 .about__call {
   padding: 10px 0;
   background-color: #0c0c0c;
